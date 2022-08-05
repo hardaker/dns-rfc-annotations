@@ -1,0 +1,12 @@
+#A Wes Hardaker
+#C Security ramifications discovered
+#D 2018/07/16
+#S 8
+<p>After a careful timing analysis of the steps defined in RFC5011, issues were 
+found that could lead to denial of service attacks.
+[drfat-rfc5011-security-considerations](https://github.com/hardaker/draft-rfc5011-security-considerations)
+discusses the issues found and the suggested fixes to the timing
+considerations.  Though acknowledged as true by the RFC5011 author,
+the security considerations draft was never published as an RFC (read
+the DNSOP email archives for further information).</p>
+

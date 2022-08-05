@@ -1,0 +1,10 @@
+#A Wes Hardaker
+#C LocalRoot is incorrectly marked as experimental
+#D 2020/06/01
+#L 1
+<p>The [LocalRoot](https://localroot.isi.edu/) project is marked in
+this document as experimental, even though the author was informed
+that the project was being placed into a fully supported service at
+[USC/ISI](https://www.isi.edu/) as part of their
+[root server infrastructure](https://b.root-servers.org)</p>
+

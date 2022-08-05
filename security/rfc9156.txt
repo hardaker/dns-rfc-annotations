@@ -1,0 +1,10 @@
+#A Wes Hardaker
+#C Privacy comparisons including QName minimization 
+#D 2018/07/16
+#L 1
+<p>During an NDSSS DNS privacy workshop, Wes Hardaker showed that the
+only true protection from privacy is to [not ask questions at
+all](https://www.isi.edu/~hardaker/papers/2018-02-ndss-analyzing-root-privacy.pdf)
+after comparing multiple DNS privacy preserving mechanisms, such as
+those described in RFC9156.</p>
+
