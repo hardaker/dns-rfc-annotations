@@ -1,0 +1,21 @@
+#A Wes Hardaker
+#C Additional parameters needed
+#D 2018/07/16
+#S 3.3.4.1
+<p>After a careful timing analysis of the steps defined in RFC5011 and
+  the timing described in RFC7583, issues were 
+found that could lead to denial of service attacks.
+<a href="https://github.com/hardaker/draft-rfc5011-security-considerations">draft-rfc5011-security-considerations</a>
+discusses the issues found and the suggested fixes to the timing
+considerations and adding additional terms to the RFC7583 Itrp equation.
+Specifically, this never-published draft states:
+</p>
+<p style="margin-left: 2em;">
+  Note: The equation for Itrp in RFC7583 is insecure as it does not
+          include the sigExpirationTime listed above [which is defined
+          as "The amount of time between the DNSKEY RRSIG's Signature
+          Inception field and the Signature Expiration field."]. The
+          Itrp equation in RFC7583 also does not include the 2*TTL
+          safety margin, though that is an operational consideration.
+</p>
+
